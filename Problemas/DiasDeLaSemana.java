@@ -4,7 +4,8 @@
  */
 public class DiasDeLaSemana {
     public static void main(String[] args) {
-        int dia=4;
+        int dia=5
+        ;
         switch (dia) {
             case 1:
                 System.out.println("Lunes");
@@ -26,6 +27,9 @@ public class DiasDeLaSemana {
             break;
             case 7:
             System.out.println("Domingo");
+            break;
+            default :
+            System.out.println("no esta dentro de las opciones de dia");
             break;
         }
     }
